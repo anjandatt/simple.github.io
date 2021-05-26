@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    
+}
+.header1{
+    background: rgb(41, 40, 40);
+    width:vw;
+    height:1.4cm;
+    border-bottom: white 1px solid;
+    
+}
+.sign{
+    color: white;
+    background-color:rgb(41, 40, 40);
+    width:5cm;
+    height:1.4cm;
+    text-align: center;
+    position: relative;
+    left:2cm;
+ 
+    
+    
+    }
+.sign p{
+        padding:17px;
+        border-left: white  solid 1px;
+        border-right: white solid 1px;
+        word-spacing: 5px;
+    }
+
+ .logo h1{
+    
+    background-color:red;
+    width: 3.5cm;
+    bottom: 1.4cm;
+    text-align:center;
+    position: relative;
+    color: white;
+    font-size: 42px;
+    font-family: 'Fjalla One';
+    padding: right 10px; 
+    left:18cm;
+ }    
+ .limit {
+    color: white;
+    background-color:rgb(41, 40, 40);
+    width:5cm;
+    height:40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    position: relative;
+    left:28cm;
+    bottom: 3cm;
+    border-left: white  solid 1px;
+    border-right: white solid 1px;
+     
+
+ }
+ h5{
+     font-size: 15px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+
+ }
+ .limit p{
+        text-align: center; 
+        font-family:'Times New Roman', Times, serif;  
+        font-weight: lighter
+        
+        
+ }
+
+.header2{
+    width: vw;
+    height:1cm;
+    background: rgb(41, 40, 40);
+  
+}
+.header2 ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    right:3cm;
+}
+.header2 li{
+    display:inline-block;
+    font-size: 15px;
+   
+   
+}
+.header2 a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.line::after{
+    content:'';
+    display: block;
+    width:0;
+    height: 2px;
+    position:relative;
+    top: 7px;
+    background-color:red;
+    transition: width .3s;
+    font-weight: normal;
+
+}
+.line:hover::after{
+width:100%;
+transition: width .5s;
+}
+.header3 {
+    width:vw;
+    height: 1cm;
+    background:rgb(32, 29, 29) ;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    bottom: 2px;
+}
+.header3 p{
+    text-transform: uppercase;
+    position: relative;
+    top: 8px;
+    font-size: 15px;
+
+
+}
+
+.header4{
+    width: vw;
+    height:350px;
+    background: black;
+    position: relative;
+    bottom:2px;
+    
+}
+.image{
+    width: 800px;
+    height:350px;
+    left:700px;
+    background-image: url(images/avengers.jpg);
+    background-repeat:no-repeat ;
+    position:relative;
+    opacity: 0.5;
+    
+}
+.header4 h1{
+    color:white;
+    position:relative;
+    bottom:200px;
+    text-align: center;
+}
+.header4 p{
+    color:white;
+    position:relative;
+    bottom:190px;
+    text-align: center;
+}
+.middle{
+    width:80%;
+    height: 350px;
+    background-color:white;
+    position: relative;
+    left:180px;
+    bottom:40px;
+
+}
+
+.pictures ul li{
+    display: inline-block;
+    top: .5cm;
+    position: relative;
+    transition: .3s;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    
+
+    
+}
+.pictures li a{
+    
+    text-decoration: none;
+    color: black;
+}
+
+.pictures li:hover{
+    transform: scale(1.07);
+    color: red;
+   
+}
+span{
+    color: rgb(161, 161, 161);
+}
+.footer{
+    width: vw;
+    height:345px;
+    background: black;
+    
+  
+}
+
+
+#image{
+    position: relative;
+    left: 2cm;
+    background-repeat:no-repeat ;
+    top: .3cm;
+    width: 40%;
+}
+.text{
+    text-align: right;
+    position: relative;
+    right: 9cm;
+    bottom: 7.5cm;
+}
+.text h4{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.text h2{
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    left: 56px;
+    top: 15px;
+}
+.text h5{
+    color: white;
+    position: relative;
+    left: 140px;
+    top: 30px;
+}
+.click{
+    width:120px;
+    height:25px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 6cm;
+    background-color: red;
+    border-radius: 40px ;
+    left: 26.5cm;
+    padding: 20px;
+
+  
+    }
+    .click a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+    }
+    .footer p{
+        position: relative;
+        bottom: 3.5cm;
+        color: white;
+        text-align: right;
+        right: 9cm;
+        font-size: 15px;;
+    }
+
+    .footer1{
+        width:vw;
+        height: 340px;
+        background: rgb(41, 40, 40);
+    }
+   
+
+.list1{
+  
+    width:10cm;
+    height: 4cm;
+    column-count: 2;
+    position: relative;
+    left:2.8cm;
+    bottom: 3.5cm;
+   
+}
+.list1 ul{
+    list-style-type: none;
+}
+.list1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.list1 a:hover{
+    color:rgb(161, 161, 161);
+}
+.list1 li{
+    padding: 5px;
+  
+    
+}
+.mm{
+    background-color: red;
+    width: 2cm;
+    height:3cm;
+    background-repeat:no-repeat ;
+    background-image: url(/marvel/logo.jpg);
+    position: relative;
+    left: 4cm;
+    top: 2cm;
+    
+}
+.footext{
+    width: 6cm;
+    height: 4cm;
+ 
+    float: right;
+    position: relative;
+    right: 12cm;
+    bottom: 1cm;
+}
+.footext h4{
+    color: white;
+}
+.footext p{
+    color:rgb(161, 161, 161);
+}
+.footext a{
+    text-decoration: none;
+}
+.icons ul{
+    list-style-type: none;
+}
+.icons {
+    
+    width: 6cm;
+    height: 3cm;
+    
+    float: right;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 1.1cm;
+}
+.icons ul li a:hover{
+    color:white;
+}
+.icons ul li {
+    position: relative;
+    display: inline-block;
+    padding-left:20px;
+    right: 1cm;
+    top:.5cm ;
+   
+}
+.icons a{
+    color: rgb(161, 161, 161);
+}
+.links li {
+    display: inline-block;
+    position: relative;
+    top: 4.2cm;
+    font-size:12px;
+    padding-left:20px;
+    left: 5cm;;
+   
+    
+}
+.links a{
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+}
+.links a:hover{
+    color: white;
+}
+.links p{
+    color: rgb(161, 161, 161);
+    text-align: center;
+    position: relative;
+    top: 4.3cm;
+    float: right;
+    right: 8cm;
+    font-size: 13px;
+
+}
+.search{
+    color: white;
+}
